@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishika Jindal | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">Rishika Jindal</div>
+      <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Background Animation -->
+  <div id="particles-js"></div>
+
+  <!-- Hero Section -->
+  <section class="content" id="home" data-aos="fade-in">
+    <h1 id="typed-line-1" class="gradient-text big"></h1>
+    <h2 id="typed-line-2" class="gradient-text small"></h2>
+    <h2 id="typed-line-3" class="gradient-text small"></h2>
+    <a href="#about" class="cta-btn">Explore My Work ↓</a>
+  </section>
+
+  <!-- Divider -->
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
+  <section class="about-section" id="about" data-aos="fade-up">
+    <div class="about-box">
+      <h2 class="about-heading">About Me</h2>
+      <div class="about-pic">
+        <img src="Rishika Potrait.jpg" alt="Rishika Jindal" class="about-img" />
+      </div>
+      <div class="about-text">
+        <p>Hi, I'm Rishika Jindal — a Computer Science student at the University of Texas at Dallas, currently exploring front-end development and user-centric design.</p>
+        <p>I’m passionate about crafting clean, functional, and aesthetic web experiences, and I’m building my skills one project at a time. I believe great design is rooted in empathy and clarity.</p>
+        <p>Beyond tech, I’ve been dancing since childhood and love staying active through sports. Whether I’m prototyping an app or choreographing a routine, creativity fuels everything I do.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Journey Section -->
+<section id="journey" class="scroll-journey" data-aos="fade-up">
+  <div class="about-box journey-box">
+    <h2 class="journey-heading">My Journey</h2>
+    <div class="timeline-scroll-container">
+      <div class="horizontal-timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>August 2024</h3>
+            <p>Started Bachelors' in Computer Science at UTD</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>December 2024</h3>
+            <p>Designed a Project for E-Commerce Website</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>February 2025</h3>
+            <p>Started as a Jonsson Ambassador</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>March 2025</h3>
+            <p>Started Front-End Development by Meta</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>March 2025</h3>
+            <p>Received First Certificate for Front-End Development</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>May 2025</h3>
+            <p>Started Programming with JavaScript from Meta</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>June 2025</h3>
+            <p>Completed Programming with JavaScript</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>June 2025</h3>
+            <p>Launched my own Portfolio — made from scratch</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>July 2025</h3>
+            <p>Launch a self-made project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Divider -->
+  <div class="section-divider"></div>
+
+  <!-- Work Section -->
+  <section class="work-section" id="work">
+    <div class="about-box">
+      <h2 class="about-heading">Work Experience</h2>
+
+      <button class="carousel-btn left" onclick="prevSlide()">&#8249;</button>
+      <button class="carousel-btn right" onclick="nextSlide()">&#8250;</button>
+
+      <div class="carousel-box">
+        <div class="carousel-wrapper">
+          <div class="carousel-container" id="carousel-container">
+
+            <!-- Jonsson School Ambassador -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Jonsson School Ambassador</h3>
+              <p class="company-name">The University of Texas at Dallas</p>
+              <p class="work-time">Feb 2025 – Present</p>
+              <div class="work-desc">
+                <p>Selected to represent UTD’s Jonsson School in outreach, admissions, and branding initiatives.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Conduct campus tours and virtual Q&A sessions for prospective students</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Guide applicants by answering admission and academic queries</li>
+                  <li data-aos="fade-up" data-aos-delay="300">Co-designed the Jonsson Ambassadors webpage for the ECS website</li>
+                  <li data-aos="fade-up" data-aos-delay="400">Help manage ECS’s digital presence through visuals and student stories</li>
+                  <li data-aos="fade-up" data-aos-delay="500">Collaborate with faculty and staff on outreach strategy</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- MeteorMate -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Social Media Specialist</h3>
+              <p class="company-name">MeteorMate</p>
+              <p class="work-time">Feb 2025 – Present</p>
+              <div class="work-desc">
+                <p>MeteorMate is a student startup that helps UTD students find compatible roommates. Helped with the digital presence and brand voice.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Launched and managed Instagram & Facebook from scratch</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Created relatable content using Canva and Figma</li>
+                  <li data-aos="fade-up" data-aos-delay="300">Crafted captions that boosted engagement with UTD’s student body</li>
+                  <li data-aos="fade-up" data-aos-delay="400">Grew follower count through aesthetic, targeted posts</li>
+                  <li data-aos="fade-up" data-aos-delay="500">Aligned branding with MeteorMate’s mission and student needs</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Nrityam -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Social Media Manager</h3>
+              <p class="company-name">Nrityam – Together in Rhythm</p>
+              <p class="work-time">Nov 2020 – Dec 2024</p>
+              <div class="work-desc">
+                <p>Directed the social presence of a classical and fusion dance initiative with a YouTube channel of 9.2K+ subscribers.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Led Instagram, Facebook, and YouTube content planning and posting</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Edited videos and curated dance visuals for audience engagement</li>
+                  <li data-aos="fade-up" data-aos-delay="300">Scheduled campaigns to align with event timelines and drops</li>
+                  <li data-aos="fade-up" data-aos-delay="400">Built audience loyalty through authentic storytelling and performance teasers</li>
+                  <li data-aos="fade-up" data-aos-delay="500">Organically grew digital reach and subscriber base</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+<div class="section-divider"></div>
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects" data-aos="fade-up">
+  <div class="about-box">
+    <h2 class="about-heading">Projects</h2>
+
+    <div class="project-tabs">
+      <button class="tab-btn active" onclick="showTab('technical')">Technical</button>
+      <button class="tab-btn" onclick="showTab('design')">Design</button>
+    </div>
+
+    <div class="projects-grid tab-content" id="technical-projects">
+      <div class="project-card">
+        <h3>Coming Up Soon!!</h3>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This very site! Coded from scratch with animations, carousel, and mobile-friendly layout.</p>
+        <a href="#" class="cta-btn" target="_blank">View Site</a>
+      </div>
+    </div>
+
+    <div class="projects-grid tab-content hidden" id="design-projects">
+      <div class="project-card">
+        <h3>Havynt Branding</h3>
+        <p>Logo and mobile mockups for a mindfulness app — designed to calm and uplift users.</p>
+        <a href="Havynt.png" class="cta-btn" target="_blank">View Design</a>
+      </div>
+      <div class="project-card">
+        <h3>Jonsson Ambassadors Page</h3>
+        <p>Revamped the ECS ambassadors webpage with improved layout, color, and accessibility.</p>
+        <a href="https://engineering.utdallas.edu/engage/prospective-students/" class="cta-btn" target="_blank">View Page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="section-divider"></div>
+
+<!-- Education Section -->
+<section class="education-section" id="education" data-aos="fade-up">
+  <div class="about-box">
+    <h2 class="about-heading">Education</h2>
+
+    <div class="education-card" data-aos="fade-up">
+      <h3 class="edu-title"><span class="edu-icon">🎓</span>The University of Texas at Dallas</h3>
+      <p class="edu-subtitle">B.S. in Computer Science | 2024 – 2028</p>
+      <p><strong>GPA:</strong> 3.96/4.0</p>
+    </div>
+
+    <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="edu-title"><span class="edu-icon">🎓</span> Ashok Hall Girls' Higher Secondary School</h3>
+      <p class="edu-subtitle">High School Diploma | Commerce with Computer | 2010 – 2024</p>
+      <p><strong>Score:</strong> 95.4%</p>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+  <div class="section-divider"></div>
+
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
+  <div class="skills-box">
+    <h2 class="section-title">Skills & Tools</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>🛠 Technical</h3>
+        <div class="skills-tags">
+          <span>C++</span>
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>React (in progress)</span>
+          <span>Media Editing (Video/Audio)</span>
+          <span>JEST (basics)</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>🧩 Tools & Design</h3>
+        <div class="skills-tags">
+          <span>Figma</span>
+          <span>Canva</span>
+          <span>Adobe</span>
+          <span>Git</span>
+          <span>GitHub</span>
+        </div>
+      </div>
+
+      <div class="skill-card cert-card">
+        <h3 class="cert-title">📜 Certifications</h3>
+          <div class="certifications">
+            <a href="Programming with JS.pdf" class="cert-tag" target="_blank" title="View Certificate">Programming with JavaScript - Meta</a>
+            <a href="Intro to Front End.pdf" class="cert-tag" target="_blank" title="View Certificate">Introduction to Front-End</a>
+            <span>GitHub (in progress)</span>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- Contact Section -->
+<div class="section-divider"></div>
+
+<!-- Contact Info Section -->
+<section class="contact-icons" id="contact" data-aos="fade-up">
+  <div class="contact-box">
+    <h2 class="contact-heading">Let’s Connect ✨</h2>
+    <p class="contact-subtext">Open to opportunities — reach out via any of the platforms below!</p>
+    <div class="contact-icons-row">
+      <a href="mailto:rishikaajindal@gmail.com" target="_blank" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/rishikajindal" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="tel:+19453389240" title="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Rishika Jindal. All rights reserved.</p>
+</footer>
+
+  <!-- Scripts -->
+  <script src="particles.min.js"></script>
+  <script src="particles.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    let container = document.getElementById("carousel-container");
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      const totalSlides = container.children.length;
+      if (index < 0) index = totalSlides - 1;
+      if (index >= totalSlides) index = 0;
+      container.style.transform = `translateX(-${index * 100}%)`;
+      currentIndex = index;
+    }
+
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
+
+    let startX = 0;
+    container.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+    container.addEventListener("touchend", e => {
+      const diff = e.changedTouches[0].clientX - startX;
+      if (diff > 50) prevSlide();
+      if (diff < -50) nextSlide();
+    });
+  </script>
+</body>
+</html>
