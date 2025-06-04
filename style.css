@@ -228,12 +228,14 @@ header {
   position: relative;
   text-align: center;
 }
-
 .timeline-scroll-container {
+  width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  padding-bottom: 30px;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
 }
+
 
 .horizontal-timeline {
   display: flex;
@@ -876,4 +878,275 @@ header {
   color: #d45c72;
   text-decoration: none;
   transition: color 0.3s ease;
+}
+
+/* Mobile Enhancements */
+@media (max-width: 600px) {
+  .about-box,
+  .journey-box,
+  .skills-box,
+  .carousel-card,
+  .contact-box,
+  .project-card,
+  .education-card {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-logo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  #typed-line-1 {
+    font-size: 2.2rem;
+  }
+
+  #typed-line-2,
+  #typed-line-3 {
+    font-size: 1.2rem;
+  }
+
+  .cta-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .timeline-item {
+    width: 170px;
+  }
+
+  .timeline-content {
+    padding: 10px 15px;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .contact-heading {
+    font-size: 1.6rem;
+  }
+
+  .contact-subtext {
+    font-size: 1rem;
+  }
+
+  .contact-icons-row {
+    gap: 20px;
+    font-size: 1.5rem;
+  }
+
+  .skills-tags span,
+  .certifications span,
+  .certifications a.cert-tag {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+
+  .project-tabs button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .education-card {
+    padding: 20px;
+    font-size: 0.95rem;
+  }
+  
+  .carousel-card {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 25px 15px;
+    box-sizing: border-box;
+  }
+
+  .carousel-wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow-x: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+.carousel-btn {
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+}
+
+.carousel-container {
+    display: flex;
+    text-wrap : wrap;
+    width: 100%;
+    flex-wrap: nowrap;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .carousel-card h2 {
+    font-size: 1.5rem;
+  }
+
+    .carousel-card h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .carousel-card p {
+    font-size: 0.9rem;
+  }
+
+   .company-name,
+  .work-time,
+  .work-desc {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .work-desc ul {
+    padding-left: 10px;
+    text-align: left;
+  }
+  
+  .project-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+  
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .project-tabs button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+.timeline-scroll-container {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.horizontal-timeline {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 0px;
+  position: relative;
+  min-width: max-content; /* FIX */
+  align-items: flex-start;
+}
+
+
+.timeline-item {
+  min-width: 200px;
+}
+.timeline-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .carousel-box {
+    overflow-x: hidden;
+  }
+
+  .carousel-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 12px;
+  }
+
+  .carousel-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .carousel-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 24px 16px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: white;
+    word-break: break-word;
+  }
+
+  .carousel-card h3,
+  .work-title,
+  .company-name,
+  .work-time {
+    text-align: center;
+  }
+
+  .work-desc {
+    text-align: left;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .work-desc ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+
+  .work-desc li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .work-desc li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #d45c72;
+    font-weight: bold;
+  }
+
+  .carousel-btn.left,
+  .carousel-btn.right {
+    top: 60%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+  }
+
+  .carousel-btn.left {
+    left: 10px;
+  }
+
+  .carousel-btn.right {
+    right: 10px;
+  }
 }
