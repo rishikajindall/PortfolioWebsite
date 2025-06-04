@@ -893,10 +893,11 @@ header {
     border-radius: 15px;
   }
 
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+ .navbar {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
   .nav-logo {
     font-size: 1.5rem;
