@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   new Typed("#typed-line-2", {
-    strings: ["Aspiring Front-End Developer"],
+    strings: ["Aspiring Developer"],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1500,
