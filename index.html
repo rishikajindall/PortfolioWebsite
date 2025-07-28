@@ -51,9 +51,10 @@
         <img src="Rishika Potrait.jpg" alt="Rishika Jindal" class="about-img" />
       </div>
       <div class="about-text">
-        <p>Hi, I'm Rishika Jindal — a Computer Science student at the University of Texas at Dallas, currently exploring front-end development and user-centric design.</p>
-        <p>I’m passionate about crafting clean, functional, and aesthetic web experiences, and I’m building my skills one project at a time. I believe great design is rooted in empathy and clarity.</p>
-        <p>Beyond tech, I’ve been dancing since childhood and love staying active through sports. Whether I’m prototyping an app or choreographing a routine, creativity fuels everything I do.</p>
+        <p>Hi, I’m Rishika Jindal — a Computer Science undergrad at the University of Texas at Dallas, exploring the intersection of emotion, design, and intelligent systems.
+        I build web experiences that don’t just work — they resonate. Whether it’s a minimalist interface or an AI-powered journaling app, my focus is on making tech feel human, intuitive, and intentional. 
+        I’m currently diving deeper into full-stack development, AI integrations, and bringing ideas to life with Python and Flask.
+        When I’m not in dev mode, you’ll find me dancing, organizing student events, or figuring out how to turn a side project into a passion-fueled portfolio piece. For me, creativity isn’t just a skill — it’s a way of thinking, building, and showing up.</p>
       </div>
     </div>
   </section>
@@ -73,7 +74,7 @@
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <h3>July 2025</h3>
-            <p>UPCOMING - Launch a self-made project</p>
+            <p>Launched MoodMate - AI Powered Mood Journal</p>
           </div>
         </div>
 
@@ -158,12 +159,29 @@
     <div class="about-box">
       <h2 class="about-heading">Work Experience</h2>
 
-      <button class="carousel-btn left" onclick="prevSlide()">&#8249;</button>
-      <button class="carousel-btn right" onclick="nextSlide()">&#8250;</button>
+      <button class="carousel-btn left" onclick="window.prevWorkSlide()">&#8249;</button>
+      <button class="carousel-btn right" onclick="window.nextWorkSlide()">&#8250;</button>
 
       <div class="carousel-box">
         <div class="carousel-wrapper">
-          <div class="carousel-container" id="carousel-container">
+          <div class="carousel-container" id="work-carousel-container">
+
+            <!-- Externship -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">AI & Workflow Automation Extern</h3>
+              <p class="company-name">Extern (Outamation)</p>
+              <p class="work-time">July 2025 – Present</p>
+              <div class="work-desc">
+                <p>Engaged in an 8-week externship focused on AI-powered document processing and intelligent automation solutions</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Designing Python scripts with libraries like pdfplumber, PyMuPDF, and PyPDF2 to extract structured data from unstructured PDFs</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Applying OCR and NLP techniques to reduce manual workflows and enhance document readability</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Building AI-driven search pipelines using LlamaIndex and FAISS to improve information retrieval from embedded content</li>
+                  <li data-aos="fade-up" data-aos-delay="250">Testing and analyzing open-source LLMs (e.g., LLaMA, HuggingFace) for performance on real-world business documents</li>
+                  <li data-aos="fade-up" data-aos-delay="300">Preparing a comprehensive technical report to showcase methodologies, tools used, and key takeaways</li>
+                </ul>
+              </div>
+            </div>
 
             <!-- Jonsson School Ambassador -->
             <div class="carousel-card" data-aos="fade-up">
@@ -215,7 +233,6 @@
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -224,6 +241,42 @@
 
   <!-- Divider -->
 <div class="section-divider"></div>
+
+<!-- Volunteer Section -->
+<section class="work-section" id="volunteer">
+    <div class="about-box">
+      <h2 class="about-heading">Volunteering Experience</h2>
+
+      <button class="carousel-btn left" onclick="window.prevVolunteerSlide()">&#8249;</button>
+      <button class="carousel-btn right" onclick="window.nextVolunteerSlide()">&#8250;</button>
+
+      <div class="carousel-box">
+        <div class="carousel-wrapper">
+          <div class="carousel-container" id="volunteer-carousel-container">
+
+            <!-- ISA -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Dance Officer</h3>
+              <p class="company-name">Indian Students Association at UT Dallas</p>
+              <p class="work-time">July 2025 – Present</p>
+              <div class="work-desc">
+                <p>Lead choreography and coordinate the ISA Dance team for major cultural events at UTD </p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Plan and manage practices, performance logistics, and creative direction for stage routines</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Collaborate with officers on event strategy, recruitment, and social media promotion</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Organize and support dance workshops to boost community engagement, outreach and participation </li>
+                  <li data-aos="fade-up" data-aos-delay="250">Foster an inclusive, high-energy environment that encourages creativity and team bonding</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
 
 <!-- Projects Section -->
 <section class="projects-section" id="projects" data-aos="fade-up">
@@ -237,7 +290,10 @@
 
     <div class="projects-grid tab-content" id="technical-projects">
       <div class="project-card">
-        <h3>Coming Up Soon!!</h3>
+        <h3>MoodMate</h3>
+        <p>Built a personal journaling web app that tracks daily moods, visualizes trends, and generates AI-based emotional summaries. Developed using Python, Flask, HTML/CSS, matplotlib, and OpenRouter's LLM API to create a calm, reflective experience with a vintage notebook feel.</p>
+        <a href="https://youtu.be/EdtEZAQ3Em4?si=MJs1h49SRQmmYd3S" class="cta-btn" target="_blank">View Demo</a>
+
       </div>
       <div class="project-card">
         <h3>Portfolio Website</h3>
@@ -374,39 +430,5 @@
   <script src="script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
-      once: true
-    });
-
-    let container = document.getElementById("carousel-container");
-    let currentIndex = 0;
-
-    function showSlide(index) {
-      const totalSlides = container.children.length;
-      if (index < 0) index = totalSlides - 1;
-      if (index >= totalSlides) index = 0;
-      container.style.transform = `translateX(-${index * 100}%)`;
-      currentIndex = index;
-    }
-
-    function nextSlide() {
-      showSlide(currentIndex + 1);
-    }
-
-    function prevSlide() {
-      showSlide(currentIndex - 1);
-    }
-
-    let startX = 0;
-    container.addEventListener("touchstart", e => startX = e.touches[0].clientX);
-    container.addEventListener("touchend", e => {
-      const diff = e.changedTouches[0].clientX - startX;
-      if (diff > 50) prevSlide();
-      if (diff < -50) nextSlide();
-    });
-  </script>
 </body>
 </html>
