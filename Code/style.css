@@ -12,7 +12,7 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   color: #333;
-  background-color: #fff0f3;
+  background-color: #d3dffa;
 }
 
 /* Background Particle Layer */
@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #fef6f3;
+  background-color: #e5effa;
 }
 
 /* Navbar */
@@ -49,7 +49,7 @@ header {
 .nav-logo {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #d45c72;
+  color: #5c9ad4;
   font-family: 'Footlight MT Light', serif;
 }
 
@@ -61,7 +61,7 @@ header {
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-weight: 600;
   font-size: 1.1rem;
   transition: color 0.3s ease;
@@ -69,14 +69,14 @@ header {
 }
 
 .nav-links li a:hover {
-  color: #d45c72;
+  color: #5c98d4;
 }
 
 .nav-toggle {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
-  color: #333;
+  color: #333333;
 }
 
 /* Hero Section */
@@ -93,7 +93,7 @@ header {
 #typed-line-1 {
   font-size: 3.5rem;
   font-weight: bold;
-  background: linear-gradient(90deg, #b84560, #e88888);
+  background: linear-gradient(90deg, #4571b8, #88cae8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
@@ -104,7 +104,7 @@ header {
 #typed-line-3 {
   font-size: 1.5rem;
   font-weight: bold;
-  background: linear-gradient(90deg, #b84560, #e88888);
+  background: linear-gradient(90deg, #457bb8, #88c6e8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 5px 0;
@@ -120,7 +120,7 @@ header {
   margin-top: 20px;
   display: inline-block;
   padding: 12px 24px;
-  background-color: #d45c72;
+  background-color: #5ca0d4;
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -129,7 +129,7 @@ header {
 }
 
 .cta-btn:hover {
-  background-color: #a34455;
+  background-color: #447aa3;
 }
 
 .section-divider {
@@ -148,7 +148,7 @@ header {
 
 .about-box {
   max-width: 950px;
-  background-color: #f9f3f3;
+  background-color: #f3f8fe;
   margin: 0 auto;
   border-radius: 20px;
   display: flex;
@@ -165,12 +165,12 @@ header {
   font-size: 2.5rem;
   font-family: 'Playfair Display', serif;
   margin-bottom: 30px;
-  color: #c86a6a;
+  color: #6a94c8;
 }
 
 .about-pic {
-  background-color: #999597;
-  color: #fff;
+  background-color: #959799;
+  color: #ffffff;
   font-size: 2rem;
   display: flex;
   justify-content: center;
@@ -213,14 +213,14 @@ header {
   font-size: 2.3rem;
   font-family: 'Playfair Display', serif;
   margin-bottom: 0px;
-  color: #c86a6a;
+  color: #6ab4c8;
 }
 
 .journey-box {
   max-width: 950px;
   margin : 0 auto ;
   width: 100%;
-  background-color: #f9f3f3;
+  background-color: #f3f8fe;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 40px;
@@ -253,7 +253,7 @@ header {
   left: 10;
   height: 2px;
   width: 100%;
-  background: repeating-linear-gradient(to right, #c98585, #c98585 5px, transparent 5px, transparent 10px);
+  background: repeating-linear-gradient(to right, #85a8c9, #859dc9 5px, transparent 5px, transparent 10px);
   z-index: 1;
 }
 
@@ -268,7 +268,7 @@ header {
 .timeline-dot {
   width: 16px;
   height: 16px;
-  background-color: #d45c72;
+  background-color: #5ca0d4;
   border-radius: 50%;
   margin: 0 auto;
   position: absolute;
@@ -279,7 +279,7 @@ header {
 }
 
 .timeline-content {
-  background: #fef6f3;
+  background: #f3f8fe;
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -289,7 +289,7 @@ header {
 
 .timeline-content h3 {
   margin: 0;
-  color: #b84560;
+  color: #458cb8;
   font-size: 1.2rem;
   font-family: 'Playfair Display', serif;
 }
@@ -328,7 +328,7 @@ header {
   font-size: 3rem;
   font-family: 'Playfair Display', serif;
   margin-bottom: 30px;
-  color: #c86a6a;
+  color: #6ab5c8;
 }
 
 .carousel-box {
@@ -362,7 +362,7 @@ header {
 
 .work-title {
   text-align: center;
-  color: #b84560;
+  color: #45a1b8;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: bold;
@@ -372,7 +372,7 @@ header {
 .company-name {
   font-size: 1.4rem;
   text-align: center;
-  color: #be435a;
+  color: #4399be;
   font-family: 'Footlight MT Light', serif;
   margin-bottom: 5px;
   font-weight: 500;
@@ -380,7 +380,7 @@ header {
 
 .work-time {
   text-align: center;
-  color: #d65674;
+  color: #5ca0d4;
   font-weight: 500;
   font-family: 'Times New Roman', serif;
   margin-bottom: 10px;
@@ -414,7 +414,7 @@ header {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #d45c72;
+  color: #5ca0d4;
   font-weight: bold;
 }
 
@@ -423,7 +423,7 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #d45c72;
+  background-color: #5ca0d4;
   width: 50px;
   height: 50px;
   border: none;
@@ -440,7 +440,7 @@ header {
 }
 
 .carousel-btn:hover {
-  background-color: #a34455;
+  background-color: #447aa3;
 }
 
 .carousel-btn.left {
@@ -457,7 +457,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background: rgba(246, 202, 202, 0.95);
+    background: rgba(211, 230, 246, 0.95);
     flex-direction: column;
     width: 200px;
     padding: 20px;
@@ -509,7 +509,7 @@ header {
   font-size: 3rem;
   font-family: 'Playfair Display', serif;
   margin-bottom: 30px;
-  color: #c86a6a;
+  color: #6ab4c8;
 }
 .projects-grid {
   max-width: 950px;
@@ -532,7 +532,7 @@ header {
 
 .project-card h3 {
   font-size: 1.6rem;
-  color: #b84560;
+  color: #458cb8;
   margin-bottom: 10px;
 }
 
@@ -546,14 +546,14 @@ header {
   padding: 10px 20px;
 }
 .project-card .cta-btn:hover {
-  background-color: #a34455;
+  background-color: #447aa3;
 }
 
 .projects-section h2 {
   text-align: center;
   margin-bottom: -15px;
   font-size: 2.3rem;
-  color: #c86a6a;
+  color: #6ab4c8;
   font-family: 'Playfair Display', serif;
 }
 
@@ -583,8 +583,8 @@ header {
 
 .project-tabs button {
   background: none;
-  border: 2px solid #d45c72;
-  color: #d45c72;
+  border: 2px solid #5ca0d4;
+  color: #5ca0d4;
   padding: 15px 25px;
   font-size: 1.1rem;
   cursor: pointer;
@@ -595,12 +595,12 @@ header {
 }
 
 .project-tabs .active {
-  background-color: #d45c72;
+  background-color: #5ca0d4;
   color: white;
 }
 
 .project-tabs button:hover {
-  background-color: #d45c72;
+  background-color: #5ca0d4;
   color: white;
 }
 
@@ -610,7 +610,7 @@ header {
 }
 
 .education-card {
-  background-color: #fff;
+  background-color: #f3f8fe;
   border-radius: 20px;
   padding: 30px 40px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -620,33 +620,33 @@ header {
   text-align: left;
   width: 100%;
   position: relative;
-  border-left: 6px solid #d45c72;
+  border-left: 6px solid #5ca0d4;
   padding-left: 25px;
 }
 
 .edu-title {
   font-size: 1.5rem;
-  color: #b84560;
+  color: #458cb8;
   margin-bottom: 6px;
   font-family: 'Footlight MT Light', serif;
 }
 
 .edu-subtitle {
   font-size: 1.1rem;
-  color: #be435a;
+  color: #447aa3;
   margin-bottom: 10px;
   font-style: italic;
 }
 .edu-time {
   font-size: 1rem;
-  color: #d65674;
+  color: #5ca0d4;
   margin-bottom: 10px;
   font-style: italic;
 }
 
 .edu-icon {
-  background-color: #f8dada;
-  color: #d45c72;
+  background-color: #e6f2fb;
+  color: #5ca0d4;
   border-radius: 50%;
   padding: 6px;
   margin-right: 10px;
@@ -656,7 +656,7 @@ header {
 
 .edu-divider {
   border: none;
-  border-top: 1px solid #eed3d3;
+  border-top: 1px solid #d3e6f6;
   margin: 30px 0;
   width: 100%;
   opacity: 0.6;
@@ -691,7 +691,8 @@ header {
 
 /* Skills Section Enhancements */
 .skills-box {
-  background-color: #f9f3f3;
+  background-color: #f3f8fe;
+
   padding: 50px 40px;
   border-radius: 25px;
   max-width: 950px;
@@ -706,7 +707,7 @@ header {
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #c86a6a;
+  color: #6ab4c8;
   font-family: 'Playfair Display', serif;
   margin-bottom: 10px;
 }
@@ -729,7 +730,7 @@ header {
 }
 
 .skill-card h3 {
-  color: #b84560;
+  color: #458cb8;
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
   margin-bottom: 12px;
@@ -742,7 +743,7 @@ header {
 }
 
 .skills-tags span {
-  background-color: #f3c2c2;
+  background-color: #d3e6f6;
   padding: 8px 16px;
   border-radius: 25px;
   font-family: 'Georgia', serif;
@@ -761,7 +762,7 @@ header {
 
 .cert-card h3 {
   font-family: 'Playfair Display', serif;
-  color: #b84560;
+  color: #458cb8;
   font-size: 1.4rem;
   margin-bottom: 12px;
   display: flex;
@@ -777,7 +778,7 @@ header {
 }
 
 .certifications span {
-  background-color: #f3c2c2;
+  background-color: #d3e6f6;
   padding: 10px 18px;
   border-radius: 20px;
   font-family: 'Georgia', serif;
@@ -787,26 +788,26 @@ header {
 }
 
 .certifications span:hover {
-  background-color: #d45c72;
-  color: white;
+  background-color: #5ca0d4;
+  color: rgb(255, 255, 255);
   transition: background-color 0.3s ease;
 }
 
 .certifications a.cert-tag {
-  background-color: #f3c2c2;
+  background-color: #d3e6f6;
   padding: 10px 18px;
   border-radius: 20px;
   font-family: 'Georgia', serif;
   font-size: 1rem;
-  color: #444;
+  color: #444444;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .certifications a.cert-tag:hover {
-  background-color: #d45c72;
-  color: white;
+  background-color: #5ca0d4;
+  color: rgb(255, 255, 255);
 }
 
 .contact-section .about-box {
@@ -826,7 +827,7 @@ header {
 }
 
 .contact-box {
-  background-color: #f9f3f3;
+  background-color: #f3f8fe;
   padding: 40px;
   border-radius: 20px;
   text-align: center;
@@ -836,7 +837,7 @@ header {
 
 .contact-heading {
   font-size: 2rem;
-  color: #c86a6a;
+  color: #6ab4c8;
   font-family: 'Playfair Display', serif;
   margin-bottom: 10px;
 }
@@ -856,13 +857,13 @@ header {
 }
 
 .contact-icons-row a {
-  color: #d45c72;
+  color: #5ca0d4;
   transition: transform 0.3s ease;
 }
 
 .contact-icons-row a:hover {
   transform: scale(1.2);
-  color: #a34455;
+  color: #447aa3;
 }
 
 /* Footer */
@@ -870,12 +871,12 @@ header {
   text-align: center;
   padding: 20px;
   font-size: 0.95rem;
-  background-color: #fff0f3;
+  background-color: #f3f8fe;
   color: #777;
   font-family: 'Georgia', serif;
 }
 .footer a {
-  color: #d45c72;
+  color: #5ca0d4;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -1130,7 +1131,7 @@ header {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #d45c72;
+    color: #5ca0d4;
     font-weight: bold;
   }
 

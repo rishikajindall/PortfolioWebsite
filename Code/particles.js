@@ -1,7 +1,7 @@
   particlesJS("particles-js", {
     particles: {
       number: { value: 1500 },
-      color: { value: "#e3a1a1" },
+      color: { value: "#a9cfee" },
       shape: { type: "circle" },
       opacity: {
         value: 0.6,

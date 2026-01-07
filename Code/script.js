@@ -6,13 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
     showCursor: false,
     onComplete: () => {
       new Typed("#typed-line-2", {
-        strings: ["Aspiring Developer"],
+        strings: ["Aspiring Data Engineer & Analyst."],
         typeSpeed: 40,
         showCursor: false,
         onComplete: () => {
-          document.querySelector("#typed-line-2").innerHTML += ' <span class="emoji">💻</span>';
           new Typed("#typed-line-3", {
-            strings: ["Let's build something beautiful together."],
+            strings: ["Let's build something beautiful together!"],
             typeSpeed: 40,
             showCursor: false,
             onComplete: () => {
