@@ -3,10 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rishika Jindal | Portfolio</title>
+  <title>Rishika Jindal | AI Automation & Data</title>
+  <meta name="description" content="Rishika Jindal — CS junior at UT Dallas specializing in AI automation, multi-agent systems, and data engineering. AI Extern @ Wayfair. Open to AI · ML · Data internships." />
+  <meta property="og:title" content="Rishika Jindal | AI Automation & Data" />
+  <meta property="og:description" content="CS junior at UT Dallas building multi-agent AI systems and data pipelines. AI Extern @ Wayfair. Open to AI · ML · Data internships." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Rishika Jindal | AI Automation & Data" />
+  <meta name="twitter:description" content="CS junior at UT Dallas building multi-agent AI systems and data pipelines. Open to AI · ML · Data internships." />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -24,6 +31,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -34,10 +42,41 @@
 
   <!-- Hero Section -->
   <section class="content" id="home" data-aos="fade-in">
-    <h1 id="typed-line-1" class="gradient-text big"></h1>
-    <h2 id="typed-line-2" class="gradient-text small"></h2>
-    <h2 id="typed-line-3" class="gradient-text small"></h2>
-    <a href="#about" class="cta-btn">Explore My Work ↓</a>
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <span class="t-dot" style="background:#ff5f57"></span>
+        <span class="t-dot" style="background:#ffbd2e"></span>
+        <span class="t-dot" style="background:#28c840"></span>
+        <span class="terminal-label">portfolio.sh</span>
+      </div>
+      <div class="terminal-body">
+        <div class="t-line">
+          <span class="t-prompt">~$</span>
+          <span id="t-cmd1" class="t-cmd"></span>
+        </div>
+        <div id="t-out1" class="t-output t-name" style="display:none">Rishika Jindal</div>
+        <div id="t-line2" class="t-line" style="display:none">
+          <span class="t-prompt">~$</span>
+          <span id="t-cmd2" class="t-cmd"></span>
+        </div>
+        <div id="t-out2" class="t-output" style="display:none">CS @ UT Dallas &nbsp;·&nbsp; AI Agents, ML & Workflow Automation &nbsp;·&nbsp; Wayfair Extern</div>
+        <div id="t-line3" class="t-line" style="display:none">
+          <span class="t-prompt">~$</span>
+          <span id="t-cmd3" class="t-cmd"></span>
+        </div>
+        <div id="t-out3" class="t-output t-status" style="display:none">
+          <span class="t-status-dot"></span>Open to AI · ML · Data Internships
+        </div>
+        <div id="t-cursor" class="t-line" style="display:none">
+          <span class="t-prompt">~$</span>
+          <span class="t-blink">▋</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#about" class="cta-btn">Explore My Work ↓</a>
+      <a href="Rishika_Jindal_Resume.pdf" class="cta-btn cta-outline" download>↓ Resume</a>
+    </div>
   </section>
 
   <!-- Divider -->
@@ -51,11 +90,7 @@
         <img src="Rishika_Potrait.jpg" alt="Rishika Jindal" class="about-img" />
       </div>
       <div class="about-text">
-        <p>I’m Rishika Jindal, a Computer Science undergraduate at the University of Texas at Dallas, currently focused on data analytics and intelligent systems. I work with data to uncover patterns, build clarity, and support meaningful decisions using Python, analytics tools, and AI-assisted workflows.
-
-I bring a strong design and engineering mindset to analytics, caring not just about results but about how insights are structured, visualized, and used. Outside of tech, I stay creative through dance, leadership, and side projects that push me to think differently.
-
-I’m striving to grow into a data-driven problem solver who builds with intention and communicates insights that actually matter.</p>
+        <p>I’m Rishika Jindal, an incoming CS junior at UT Dallas drawn to the space where data, ML, and AI engineering overlap. I think in systems before I think in code — my instinct when I see a problem is to map how data moves through it, where intelligence can be injected, and what the output should look like before anything gets built. Lately that’s taken the form of AI automation — building multi-agent pipelines and agentic workflows that collapse hours of manual work into minutes, turning structured data sources into live intelligence systems. I like working on problems that have real stakes — where the analysis actually informs a decision, the model actually changes a workflow, or the automation actually saves someone’s time. Outside of tech, I serve as a Jonsson ECS Ambassador, lead dance with ISA, and stay curious through projects that push me to think differently.</p>
       </div>
     </div>
   </section>
@@ -70,6 +105,86 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
     <div class="timeline-scroll-container">
       <div class="horizontal-timeline">
         <div class="timeline-line"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>June 2026</h3>
+            <p>Shipped 4-agent AI Market Intelligence system for Wayfair's Rugs category team — full pipeline from data collection to executive dashboard in under 15 minutes</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>May 2026</h3>
+            <p>Started AI Extern role with Wayfair through Extern</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>April 2026</h3>
+            <p>Built TariffShield at FinHack 2026 — AI platform scoring portfolio tariff risk using SEC EDGAR, USITC HTS, and Federal Reserve FRED data</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>April 2026</h3>
+            <p>Placed 3rd in the AI Biz Club Product Development Challenge at JSOM — built CourseIQ solo</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>March 2026</h3>
+            <p>Reached Top 8 of 56 teams in the Google Business Analytics Case Competition — built RetainIQ</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>February 2026</h3>
+            <p>Joined a Short-Term Working Group with Dr. Dan Burleson to build a leadership framework for ECS first-year TAs</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>February 2026</h3>
+            <p>Earned Professional Skills Certification from the Jonsson School of Engineering and Computer Science</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>January 2026</h3>
+            <p>Started the Canva Data Visualization & AI Design Externship through Extern — completed March 2026</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>January 2026</h3>
+            <p>Completed Deloitte Australia's Data Analytics Job Simulation on Forage</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>January 2026</h3>
+            <p>Completed SQL for Data Analysis (LinkedIn Learning)</p>
+          </div>
+        </div>
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
@@ -202,12 +317,22 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
     <div class="about-box">
       <h2 class="about-heading">Work Experience</h2>
 
-      <button class="carousel-btn left" onclick="window.prevWorkSlide()">&#8249;</button>
-      <button class="carousel-btn right" onclick="window.nextWorkSlide()">&#8250;</button>
+      <div class="cards-grid">
 
-      <div class="carousel-box">
-        <div class="carousel-wrapper">
-          <div class="carousel-container" id="work-carousel-container">
+            <!-- Wayfair AI Extern -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">AI Extern</h3>
+              <p class="company-name">Wayfair (via Extern)</p>
+              <p class="work-time">May 2026 – Jun 2026</p>
+              <div class="work-desc">
+                <p>Architected and shipped a production-ready 4-agent AI market intelligence system for Wayfair's Rugs category team, automating the entire research pipeline from data collection to executive reporting.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Architected a 4-agent AI system in n8n automating data collection across 7+ sources — Amazon, Wayfair, Walmart, Instagram, Pinterest, and home decor blogs</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Engineered end-to-end LLM workflows integrating Google Gemini, Mistral, and Hugging Face FLUX.1 — cutting manual research from several hours to under 15 minutes</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Delivered an interactive 6-section HTML executive dashboard with automated Google Drive delivery, surfacing pricing gaps, whitespace opportunities, supplier insights, and strategic recommendations directly to the category team</li>
+                </ul>
+              </div>
+            </div>
 
             <!-- Jonsson School Ambassador -->
             <div class="carousel-card" data-aos="fade-up">
@@ -217,51 +342,20 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
               <div class="work-desc">
                 <p>Selected to represent UTD’s Jonsson School in outreach, admissions, and branding initiatives.</p>
                 <ul>
-                  <li data-aos="fade-up" data-aos-delay="100">Conduct campus tours and virtual Q&A sessions for prospective students</li>
-                  <li data-aos="fade-up" data-aos-delay="150">Guide applicants by answering admission and academic queries</li>
-                  <li data-aos="fade-up" data-aos-delay="200">Co-designed the Jonsson Ambassadors webpage for the ECS website</li>
-                  <li data-aos="fade-up" data-aos-delay="250">Help manage ECS’s digital presence through visuals and student stories</li>
-                  <li data-aos="fade-up" data-aos-delay="300">Collaborate with faculty and staff on outreach strategy</li>
+                  <li data-aos="fade-up" data-aos-delay="100">Solely manage the official Jonsson Ambassadors Instagram — producing all 29 posts and driving 20,000+ total views through recruitment content, major comparison series, and ambassador spotlights</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Spearhead multichannel recruitment campaigns — designing promotional posters, crafting mass email outreach, and managing Instagram content across 15+ events to drive prospective student engagement at scale</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Conduct campus tours and one-on-one consultations engaging 100+ prospective students and families with program and curriculum-level insights</li>
                 </ul>
               </div>
             </div>
 
-             <!-- Perplexity Campus Partner -->
-            <div class="carousel-card" data-aos="fade-up">
-              <h3 class="work-title">Perplexity Campus Partner</h3>
-              <p class="company-name">Perplexity</p>
-              <p class="work-time">September 2025 – Present</p>
-              <div class="work-desc">
-                <p>Part of a nationwide campus program promoting Perplexity’s Comet browser</p>
-                <ul>
-                  <li data-aos="fade-up" data-aos-delay="100">Driving Comet adoption through campus outreach and digital campaigns</li>
-                  <li data-aos="fade-up" data-aos-delay="150">Collaborating with campus leaders and the Perplexity team</li>
-                  <li data-aos="fade-up" data-aos-delay="200">Completing performance-based challenges with commission incentives</li>
-                  <li data-aos="fade-up" data-aos-delay="250">Providing product feedback with early access to Pro features</li>
-                </ul>
-              </div>
-            </div>
 
-            <!-- Externship -->
-            <div class="carousel-card" data-aos="fade-up">
-              <h3 class="work-title">AI & Workflow Automation Extern</h3>
-              <p class="company-name">Extern (Outamation)</p>
-              <p class="work-time">July 2025 – September 2025</p>
-              <div class="work-desc">
-                <p>Worked on AI-powered document processing and automation solutions for real-world business workflows</p>
-                <ul>
-                  <li data-aos="fade-up" data-aos-delay="100">Built Python pipelines to extract structured data from unstructured PDFs using pdfplumber, PyMuPDF, and PyPDF2</li>
-                  <li data-aos="fade-up" data-aos-delay="150">Applied OCR and NLP techniques to improve document readability and reduce manual processing effort</li>
-                  <li data-aos="fade-up" data-aos-delay="200">Designed embedding-based search pipelines using LlamaIndex and FAISS for faster information retrieval</li>
-                </ul>
-              </div>
-            </div>
 
             <!-- MeteorMate -->
             <div class="carousel-card" data-aos="fade-up">
               <h3 class="work-title">Social Media Specialist</h3>
               <p class="company-name">MeteorMate</p>
-              <p class="work-time">Feb 2025 – Present</p>
+              <p class="work-time">Feb 2025 – May 2025</p>
               <div class="work-desc">
                 <p>MeteorMate is a student startup that helps UTD students find compatible roommates. Helped with the digital presence and brand voice.</p>
                 <ul>
@@ -290,13 +384,196 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Divider -->
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+<!-- Projects Section -->
+<section class="projects-section" id="projects" data-aos="fade-up">
+  <div class="about-box">
+    <h2 class="about-heading">Projects</h2>
+
+    <!-- Featured Project -->
+    <div class="featured-project-card" data-aos="fade-up">
+      <div class="featured-top">
+        <span class="featured-label">★ Featured</span>
+        <span class="project-category">[AI Automation]</span>
+        <span class="featured-context">Wayfair · Jun 2026</span>
+      </div>
+      <h3>Multi-Agent AI Market Intelligence System</h3>
+      <p>Production-ready 4-agent AI system for Wayfair's Rugs category team — automating the full market research pipeline across 7+ sources (Amazon, Walmart, Instagram, Pinterest) and delivering a 6-section HTML executive dashboard in under 15 minutes. Powered by Google Gemini, Mistral, and Hugging Face FLUX.1.</p>
+      <div class="tech-tags">
+        <span>n8n</span><span>Google Gemini</span><span>Mistral</span><span>Hugging Face FLUX.1</span><span>Docker</span><span>Google Drive API</span>
+      </div>
+    </div>
+
+    <div class="project-tabs">
+      <button class="tab-btn active" onclick="showTab('technical')">Technical</button>
+      <button class="tab-btn" onclick="showTab('design')">Design</button>
+    </div>
+
+    <div class="projects-grid tab-content" id="technical-projects">
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[AI Automation]</span></div>
+        <h3>Post-Meeting Email Automation Engine</h3>
+        <p>Built an 8-step n8n automation pipeline that ingests networking meeting notes via structured forms and generates personalized AI follow-up emails. Includes a human-in-the-loop Discord approval system for review before automated Gmail delivery — reducing manual drafting time to near zero.</p>
+        <div class="tech-tags">
+          <span>n8n</span><span>Gmail API</span><span>Discord API</span><span>LLM Integration</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[FinTech + AI]</span></div>
+        <h3>TariffShield</h3>
+        <p>Built at FinHack 2026 (UTD Naveen Jindal School of Management). Answers one question investors can't answer anywhere else: how much tariff risk is in my portfolio? Calculates 0–100 risk scores per stock using geographic revenue concentration, sector tariff sensitivity, margin compression, and mitigation readiness — all sourced from SEC EDGAR, USITC HTS, and Federal Reserve FRED. GPT-4o synthesizes everything into an analyst-grade risk report where every claim cites an official government source.</p>
+        <div class="tech-tags">
+          <span>React</span><span>TypeScript</span><span>OpenAI GPT-4o</span><span>SEC EDGAR API</span><span>USITC HTS</span><span>FRED API</span><span>Lovable</span>
+        </div>
+        <a href="https://tariffshield.lovable.app/" class="cta-btn" target="_blank">Live Demo</a>
+      </div>
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[AI Product]</span></div>
+        <h3>CourseIQ</h3>
+        <p>An AI academic co-pilot that turns syllabi into study plans, tracks assignments across platforms, and builds smart schedules. Placed 3rd at the AI Biz Club Product Development Challenge at JSOM, built solo.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>LLM API</span><span>Product Design</span>
+        </div>
+        <a href="https://lnkd.in/gjPVpBkP" class="cta-btn" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[Data Analytics]</span></div>
+        <h3>RetainIQ</h3>
+        <p>An AI-powered customer retention tool that predicts churn and personalizes engagement strategies. Reached the Top 8 of 56 teams in the Google Business Analytics Case Competition at UTD.</p>
+        <div class="tech-tags">
+          <span>Predictive Analytics</span><span>Tableau</span><span>Business Strategy</span>
+        </div>
+        <a href="https://retainiq-951046328836.us-central1.run.app/dashboard" class="cta-btn" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[Full Stack + AI]</span></div>
+        <h3>MoodMate</h3>
+        <p>Built a personal journaling web app that tracks daily moods, visualizes trends, and generates AI-based emotional summaries using Python, Flask, Matplotlib, and OpenRouter's LLM API.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>Flask</span><span>OpenRouter LLM</span><span>Matplotlib</span>
+        </div>
+        <a href="https://youtu.be/EdtEZAQ3Em4?si=MJs1h49SRQmmYd3S" class="cta-btn" target="_blank">View Demo</a>
+      </div>
+      <div class="project-card">
+        <div class="project-meta"><span class="project-category">[Web Dev]</span></div>
+        <h3>Portfolio Website</h3>
+        <p>This very site — coded from scratch with a terminal-style hero, connected-node particle animation, horizontal timeline, and a fully mobile-responsive layout.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>particles.js</span>
+        </div>
+        <a href="#" class="cta-btn">View Site</a>
+      </div>
+    </div>
+
+    <div class="projects-grid tab-content hidden" id="design-projects">
+      <div class="project-card">
+        <h3>Havynt Branding</h3>
+        <p>Logo and mobile mockups for a mindfulness app — designed to calm and uplift users.</p>
+        <a href="Havynt.png" class="cta-btn" target="_blank">View Design</a>
+      </div>
+      <div class="project-card">
+        <h3>Jonsson Ambassadors Page</h3>
+        <p>Revamped the ECS ambassadors webpage with improved layout, color, and accessibility.</p>
+        <a href="https://engineering.utdallas.edu/engage/prospective-students/" class="cta-btn" target="_blank">View Page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="section-divider"></div>
+
+<!-- Education Section -->
+<section class="education-section" id="education" data-aos="fade-up">
+  <div class="about-box">
+    <h2 class="about-heading">Education</h2>
+
+    <div class="education-card" data-aos="fade-up">
+      <h3 class="edu-title"><span class="edu-icon">🎓</span>The University of Texas at Dallas</h3>
+      <p class="edu-subtitle">B.S. in Computer Science | 2024 – 2028</p>
+      <p><strong>GPA:</strong> 3.93/4.0 &nbsp;·&nbsp; Dean's List, Fall 2024</p>
+    </div>
+
+    <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="edu-title"><span class="edu-icon">🎓</span> Ashok Hall Girls' Higher Secondary School</h3>
+      <p class="edu-subtitle">High School Diploma | Commerce with Computer | 2010 – 2024</p>
+      <p><strong>Score:</strong> 95.7%</p>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+  <div class="section-divider"></div>
+
+<!-- Skills Section -->
+<section class="skills-section" id="skills">
+  <div class="skills-box">
+    <h2 class="section-title">Skills & Tools</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card skill-technical">
+        <h3>🛠 Technical</h3>
+        <div class="skills-tags">
+          <span>Python</span>
+          <span>C++</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>React</span>
+          <span>Flask</span>
+          <span>Bootstrap</span>
+          <span>Numpy</span>
+          <span>Pandas</span>
+          <span>Matplotlib</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>n8n</span>
+          <span>AI Agents</span>
+          <span>Prompt Engineering</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-tools">
+        <h3>🧩 Tools & Design</h3>
+        <div class="skills-tags">
+          <span>Tableau</span>
+          <span>Power BI</span>
+          <span>VS Code</span>
+          <span>Git</span>
+          <span>GitHub</span>
+        </div>
+      </div>
+
+      <div class="skill-card cert-card">
+        <h3 class="cert-title">📜 Certifications</h3>
+          <div class="certifications">
+            <a href="Certificates/Deloitte Australia - Data Analytics Job Simulation.pdf" class="cert-tag" target="_blank" title="View Certificate">Deloitte Australia Data Analytics Job Simulation</a>
+            <span class="cert-tag">Professional Skills Certification — Jonsson School ECS</span>
+            <span class="cert-tag">SQL for Data Analysis (LinkedIn Learning)</span>
+            <a href="Certificates/Python for Data Science, AI and Dev.pdf" class="cert-tag" target="_blank" title="View Certificate">Python for Data Science, AI & Development</a>
+            <a href = "https://www.credly.com/badges/4f5c99d6-e040-4d8c-b4f3-e0cce6ba2b54/linked_in?t=t4um7k" class="cert-tag" target="_blank" title="View Badge">MongoDB AI-Powered Search</a>
+            <a href="Certificates/Intro to Front End.pdf" class="cert-tag" target="_blank" title="View Certificate">Introduction to Front-End</a>
+            <a href="Certificates/Programming with JS.pdf" class="cert-tag" target="_blank" title="View Certificate">Programming with JavaScript</a>
+            <a href="Certificates/HTML and CSS in depth.pdf" class="cert-tag" target="_blank" title="View Certificate">HTML and CSS in Depth</a>
+            <a href="Certificates/React Basics.pdf" class="cert-tag" target="_blank" title="View Certificate">React Basics</a>
+            <span class="cert-tag">MongoDB Vector Search — MongoDB (2025)</span>
+            <span class="cert-tag">MongoDB Basics for Students — MongoDB (2025)</span>
+            <span class="cert-tag">Professional Branding — Jonsson School ECS (2025)</span>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <div class="section-divider"></div>
 
 <!-- Volunteer Section -->
@@ -304,12 +581,7 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
     <div class="about-box">
       <h2 class="about-heading">Volunteering Experience</h2>
 
-      <button class="carousel-btn left" onclick="window.prevVolunteerSlide()">&#8249;</button>
-      <button class="carousel-btn right" onclick="window.nextVolunteerSlide()">&#8250;</button>
-
-      <div class="carousel-box">
-        <div class="carousel-wrapper">
-          <div class="carousel-container" id="volunteer-carousel-container">
+      <div class="cards-grid">
 
             <!-- Freshman Mentor Program -->
             <div class="carousel-card" data-aos="fade-up">
@@ -342,131 +614,39 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
                 </ul>
               </div>
             </div>
-          </div>
-          </div>
-        </div>
-      </div>
-</section>
 
-    <!-- Divider -->
-    <div class="section-divider"></div>
+            <!-- Burleson Working Group -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Short-Term Working Group Member</h3>
+              <p class="company-name">Erik Jonsson School of Engineering & Computer Science, UT Dallas</p>
+              <p class="work-time">February 2026 – March 2026</p>
+              <div class="work-desc">
+                <p>Worked with Dr. Dan Burleson to build a leadership and mentoring framework for the ECS First Year Program, launching Fall 2026.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Designed a leadership and mentoring framework for undergraduate TAs from the ground up</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Collaborated with a small student team to shape how first-year students experience STEM at UTD</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Framework set to go live for the First Year Program in Fall 2026</li>
+                </ul>
+              </div>
+            </div>
 
-<!-- Projects Section -->
-<section class="projects-section" id="projects" data-aos="fade-up">
-  <div class="about-box">
-    <h2 class="about-heading">Projects</h2>
-
-    <div class="project-tabs">
-      <button class="tab-btn active" onclick="showTab('technical')">Technical</button>
-      <button class="tab-btn" onclick="showTab('design')">Design</button>
-    </div>
-
-    <div class="projects-grid tab-content" id="technical-projects">
-      <div class="project-card">
-        <h3>MoodMate</h3>
-        <p>Built a personal journaling web app that tracks daily moods, visualizes trends, and generates AI-based emotional summaries. Developed using Python, Flask, HTML/CSS, matplotlib, and OpenRouter's LLM API to create a calm, reflective experience with a vintage notebook feel.</p>
-        <a href="https://youtu.be/EdtEZAQ3Em4?si=MJs1h49SRQmmYd3S" class="cta-btn" target="_blank">View Demo</a>
-
-      </div>
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>This very site! Coded from scratch with animations, carousel, and mobile-friendly layout.</p>
-        <a href="#" class="cta-btn" target="_blank">View Site</a>
-      </div>
-    </div>
-
-    <div class="projects-grid tab-content hidden" id="design-projects">
-      <div class="project-card">
-        <h3>Havynt Branding</h3>
-        <p>Logo and mobile mockups for a mindfulness app — designed to calm and uplift users.</p>
-        <a href="Havynt.png" class="cta-btn" target="_blank">View Design</a>
-      </div>
-      <div class="project-card">
-        <h3>Jonsson Ambassadors Page</h3>
-        <p>Revamped the ECS ambassadors webpage with improved layout, color, and accessibility.</p>
-        <a href="https://engineering.utdallas.edu/engage/prospective-students/" class="cta-btn" target="_blank">View Page</a>
+            <!-- Perplexity Campus Partner -->
+            <div class="carousel-card" data-aos="fade-up">
+              <h3 class="work-title">Perplexity Campus Partner</h3>
+              <p class="company-name">Perplexity</p>
+              <p class="work-time">September 2025 – April 2026</p>
+              <div class="work-desc">
+                <p>Part of a nationwide campus program promoting Perplexity's Comet browser.</p>
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="100">Driving Comet adoption through campus outreach and digital campaigns</li>
+                  <li data-aos="fade-up" data-aos-delay="150">Collaborating with campus leaders and the Perplexity team</li>
+                  <li data-aos="fade-up" data-aos-delay="200">Completing performance-based challenges with commission incentives</li>
+                  <li data-aos="fade-up" data-aos-delay="250">Providing product feedback with early access to Pro features</li>
+                </ul>
+              </div>
+            </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- Divider -->
-<div class="section-divider"></div>
-
-<!-- Education Section -->
-<section class="education-section" id="education" data-aos="fade-up">
-  <div class="about-box">
-    <h2 class="about-heading">Education</h2>
-
-    <div class="education-card" data-aos="fade-up">
-      <h3 class="edu-title"><span class="edu-icon">🎓</span>The University of Texas at Dallas</h3>
-      <p class="edu-subtitle">B.S. in Computer Science | 2024 – 2028</p>
-      <p><strong>GPA:</strong> 3.9/4.0</p>
-    </div>
-
-    <div class="education-card" data-aos="fade-up" data-aos-delay="100">
-      <h3 class="edu-title"><span class="edu-icon">🎓</span> Ashok Hall Girls' Higher Secondary School</h3>
-      <p class="edu-subtitle">High School Diploma | Commerce with Computer | 2010 – 2024</p>
-      <p><strong>Score:</strong> 95.4%</p>
-    </div>
-  </div>
-</section>
-
-<!-- Divider -->
-  <div class="section-divider"></div>
-
-<!-- Skills Section -->
-<section class="skills-section" id="skills">
-  <div class="skills-box">
-    <h2 class="section-title">Skills & Tools</h2>
-
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>🛠 Technical</h3>
-        <div class="skills-tags">
-          <span>C++</span>
-          <span>Python</span>
-          <span>JavaScript</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>Media Editing (Video/Audio)</span>
-          <span>JEST</span>
-          <span>React</span>
-          <span>Bootstrap</span>
-          <span>Numpy</span>
-          <span>Matplotlib</span>
-          <span>SQL</span>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <h3>🧩 Tools & Design</h3>
-        <div class="skills-tags">
-          <span>Tableau</span>
-          <span>Power BI</span>
-          <span>VS Code</span>
-          <span>Figma</span>
-          <span>Canva</span>
-          <span>Adobe</span>
-          <span>Git</span>
-          <span>GitHub</span>
-        </div>
-      </div>
-
-      <div class="skill-card cert-card">
-        <h3 class="cert-title">📜 Certifications</h3>
-          <div class="certifications">
-            <a href="../Certificates/Python for Data Science, AI and Dev.pdf" class="cert-tag" target="_blank" title="View Certificate">Python for Data Science, AI & Development</a>
-            <a href = "https://www.credly.com/badges/4f5c99d6-e040-4d8c-b4f3-e0cce6ba2b54/linked_in?t=t4um7k" class="cert-tag" target="_blank" title="View Badge">MongoDB AI-Powered Search</a>
-            <a href="../Certificates/Intro to Front End.pdf" class="cert-tag" target="_blank" title="View Certificate">Introduction to Front-End</a>
-            <a href="../Certificates/Programming with JS.pdf" class="cert-tag" target="_blank" title="View Certificate">Programming with JavaScript</a>
-            <a href="../Certificates/HTML and CSS in depth.pdf" class="cert-tag" target="_blank" title="View Certificate">HTML and CSS in Depth</a>
-            <a href="../Certificates/React Basics.pdf" class="cert-tag" target="_blank" title="View Certificate">React Basics</a>
-          </div>
-
-      </div>
-    </div>
-  </div>
 </section>
 
 <div class="section-divider"></div>
@@ -487,7 +667,7 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
         <i class="fab fa-linkedin"></i>
       </a>
       
-      <a href="#" target="_blank" title="GitHub">
+      <a href="https://github.com/rishikajindall" target="_blank" title="GitHub">
         <i class="fab fa-github"></i>
       </a>
 
@@ -499,14 +679,13 @@ I’m striving to grow into a data-driven problem solver who builds with intenti
 </section>
 
 <footer class="footer">
-  <p>© 2025 Rishika Jindal. All rights reserved.</p>
+  <p>© 2026 Rishika Jindal. All rights reserved.</p>
 </footer>
 
   <!-- Scripts -->
   <script src="particles.min.js"></script>
   <script src="particles.js"></script>
   <script src="script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </body>
 </html>
