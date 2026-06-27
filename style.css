@@ -376,7 +376,7 @@ header {
   text-align: center;
   color: var(--accent);
   font-family: var(--heading);
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -402,12 +402,12 @@ header {
 
 .work-desc {
   flex: 1.2;
-  font-family: 'Georgia', serif;
-  font-size: 1.1rem;
+  font-family: inherit;
+  font-size: 0.92rem;
   color: var(--text-muted);
   text-align: left;
-  line-height: 1.6;
-  padding: 0 10px;
+  line-height: 1.65;
+  padding: 0;
 }
 
 .work-desc ul {
@@ -864,6 +864,10 @@ header {
 
 /* Mobile Enhancements */
 @media (max-width: 600px) {
+  .work-section {
+    padding: 40px 16px;
+  }
+
   .cards-grid {
     grid-template-columns: 1fr;
   }
@@ -952,33 +956,44 @@ header {
   }
 
   .carousel-card {
-    padding: 25px 15px;
+    padding: 20px 18px;
     box-sizing: border-box;
   }
 
   .carousel-card h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
-    .carousel-card h3 {
-    font-size: 1.4rem;
+  .carousel-card h3,
+  .work-title {
+    font-size: 1.1rem;
     text-align: center;
   }
 
   .carousel-card p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
-   .company-name,
-  .work-time,
-  .work-desc {
-    font-size: 0.9rem;
+  .company-name,
+  .work-time {
+    font-size: 0.8rem;
     text-align: center;
   }
 
-  .work-desc ul {
-    padding-left: 10px;
+  .work-desc {
+    font-size: 0.85rem;
     text-align: left;
+    padding: 0;
+  }
+
+  .work-desc ul {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .work-desc li {
+    padding-left: 20px;
+    margin-bottom: 8px;
   }
 
   .project-card h3 {
@@ -1023,49 +1038,6 @@ header {
 .timeline-content {
   width: 100%;
   box-sizing: border-box;
-}
-
-@media (max-width: 600px) {
-  .carousel-card {
-    padding: 24px 16px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    border-radius: 15px;
-    background-color: var(--surface-2);
-    word-break: break-word;
-  }
-
-  .carousel-card h3,
-  .work-title,
-  .company-name,
-  .work-time {
-    text-align: center;
-  }
-
-  .work-desc {
-    text-align: left;
-    padding: 0;
-    font-size: 1rem;
-  }
-
-  .work-desc ul {
-    padding-left: 20px;
-    list-style: none;
-  }
-
-  .work-desc li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 20px;
-  }
-
-  .work-desc li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    font-weight: bold;
-  }
 }
 
 /* ===================== TERMINAL HERO ===================== */
